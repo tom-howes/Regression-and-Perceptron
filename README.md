@@ -9,26 +9,26 @@ Comparative analysis with scikit-learn implementations
 Applications to real-world datasets (housing prices and spam detection)
 
 ## Datasets
-Housing Dataset
+### Housing Dataset
 Used for regression tasks to predict housing prices based on various features such as location, size, and amenities.
-Spambase Dataset
+### Spambase Dataset
 Used for classification tasks to distinguish spam emails from legitimate ones based on word frequencies and character patterns.
-Implementation Highlights
-Linear Regression with Regularization
-The project implements both L1 (Lasso) and L2 (Ridge) regularization from scratch:
-L2 Regularization (Ridge):
+## Implementation Highlights
+### Linear Regression with Regularization
+The project implements both L1 (Lasso) and L2 (Ridge) regularization from scratch
+### L2 Regularization (Ridge):
 
 Adds a penalty term proportional to the square of coefficients
 Helps prevent overfitting by shrinking coefficient values
 Implemented using closed-form normal equations
 
-L1 Regularization (Lasso):
+### L1 Regularization (Lasso):
 
 Adds a penalty term proportional to the absolute value of coefficients
 Performs feature selection by driving some coefficients to zero
 Useful for high-dimensional datasets with many irrelevant features
 
-Perceptron Classifier
+### Perceptron Classifier
 A binary linear classifier implemented from scratch:
 
 Iteratively updates weights based on misclassified examples
